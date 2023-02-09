@@ -1,0 +1,58 @@
+
+body{
+font-family:"Roboto", sans-serif;
+
+}
+
+.box {
+display: flex;
+}
+
+
+li { 
+list-style-type: none;
+}
+
+.logo{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
+color: #2196F3
+
+}
+
+.logo-header{
+    color:#000000;
+}
+
+h1{
+position: absolute;
+width: 696px;
+height: 120px;
+left: 452px;
+top: 280px;
+}
+
+.container{
+flex-basis: auto;
+}
+
+
+.features-list{
+    display: flex;
+}
+
+.logo-footer{
+    color:darkblue;
+    height: 31px;
+width: 145px;
+left: 215px;
+top: 2154px;    
+
+  /* ПОСТАВИТИ БІЛИЙ!!!! */
+}
+
