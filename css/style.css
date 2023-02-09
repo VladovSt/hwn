@@ -69,6 +69,7 @@ top: 280px;
 
 .container{
 flex-basis: auto;
+margin: 0 auto;
 }
 
 
