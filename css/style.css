@@ -21,12 +21,30 @@ color: #2196F3
     color:#000000;
 }
 
+.Decision{
+margin-left: 452px;
+margin-right: 452px;
+}
+
 .section{
     
 }
 
-.item{
+.item:first-child{
+    padding-left: 0;
+    margin-left: 215px;
+}
 
+.item:last-child{
+    padding-right:0;
+}
+
+.item{
+width: 270px;
+padding-left: 15px;
+padding-right: 15px;
+margin-bottom: 0px;
+margin-top: 0px;
 }
 
 .list{
@@ -63,7 +81,6 @@ border-radius: 0px 0px 4px 4px;
     width: 270px;
     height: 368px;
     left: 215px;
-    top: 1632px;  
     text-align: center;
 }
 
@@ -72,7 +89,6 @@ border-radius: 0px 0px 4px 4px;
     width: 270px;
     height: 368px;
     left: 515px;
-    top: 1632px;
     text-align: center
 }
 
@@ -81,7 +97,6 @@ border-radius: 0px 0px 4px 4px;
     width: 270px;
     height: 368px;
     left: 815px;
-    top: 1632px;
     text-align: center
 }
 
@@ -90,9 +105,8 @@ border-radius: 0px 0px 4px 4px;
     width: 270px;
     height: 368px;
     left: 1115px;
-    top: 1632px;
     text-align: center
-} */
+} 
 
 .footer{
 
