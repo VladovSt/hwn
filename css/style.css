@@ -2,6 +2,7 @@ body{
 font-family:"Roboto", sans-serif;
 width: 1600px;
 margin: 0px;
+padding: 0;
 }
 
 .section{
@@ -49,24 +50,41 @@ padding-top: 24px;
 display: flex;
 padding-top: 32px;
 margin: 0px;
-
 }
 
 .nav-item{
 height: 16;
 padding-right: 50px;
 text-decoration: none;
+color: #212121;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
 }
 
 .site-addres{
     display: flex;
     padding-top: 32px;
-    margin: 0;
+    margin-left: 344px;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
 }
 
 .site__addres-item{
 padding-right: 50px;
 text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color: #757575;
 }
 
 .site__addres-item:last-child{
@@ -109,7 +127,12 @@ padding: 0px;
 }
 
 .button{
+    background:#ffff;
+    border: #F5F4FA;
+}
 
+.button:hover{
+color:#2196F3;
 }
 
 .item:last-child{
@@ -148,26 +171,37 @@ margin-right: 30px;
 
 }
 
+.section-work{
+    padding-bottom: 94px;
+    padding-top: 118px;
+}
+
 .work-title{
     width: 366px;
-    height: 42px;
-    padding-left: 217;
-    text-align: center;
+    margin-left: 257px;
+    margin-bottom: 50px;
     font-family: 'Roboto';
-    font-weight:  700px;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
     text-align: center;
+    line-height: 42px;
     letter-spacing: 0.03em;
+    color: #212121;
 }
 
 .work-list{
 display: flex;
-margin-top: 50px;
+margin-top: 0;
+margin-bottom: 0;
+padding: 0;
 }
 
 .work-item{
+margin-right: 30px;
+}
 
+.work-item:last-child{
+    margin-right: 0;
 }
 
 .section-team{
@@ -201,6 +235,10 @@ box-shadow:
 border-radius: 0px 0px 4px 4px;
 }
 
+p{
+    color: #757575;
+}
+
 .team:nth-child(1){
 margin-left: 215px;
 }
@@ -209,29 +247,41 @@ margin-left: 215px;
 margin-right: 215px;
 }
  
-
-
 h2{
 color:#212121;
 margin: 0;
 }
 
-
-
 .footer{
     padding-bottom: 60px;
     padding-top: 60px;
     background:#2F303A;
-    ;
 }
 
 .features-list{
-}
 
-.footer-addres{
 }
 
 .logo-footer{
-color:white;
 
+}
+
+.logo_footer-color{
+color:white;
+}
+
+.footer-addres{
+margin-top: 20px;
+
+}
+
+.address{
+    color: #FFFFFF;
+}
+
+.address-item{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    padding-top: 9px;
 }
