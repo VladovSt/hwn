@@ -1,74 +1,81 @@
 body{
 font-family:"Roboto", sans-serif;
-width: 1600px;
-margin: 0px;
-padding: 0;
+background: #FFFFFF;
+color: #212121;
 }
 
-.section{
-    width: 1600px;
-}
-
-.section-header{
-    height: 80px;
+ul,li,p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
 }
 
 .container{
-width: 1200;
-margin-left: 215px;
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
 }
 
-li { 
-list-style-type: none;
+.list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.item{
+    text-decoration: none;
+}
+
+.page-header{
+display: flex;
+align-items: center;
 }
 
 .logo{
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.2;
 letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;
 }   
 
 .logo-header{
-padding-top: 24px;
+    
 }
 
 .logo-header-color{
-    color:#000000;
+ color:#000000;
 }
 
 .site-nav{
-    display: flex;
-    height: 80;
+display: flex;
 }
     
 .nav-list{
 display: flex;
-padding-top: 32px;
-margin: 0px;
 }
 
-.nav-item{
-height: 16;
-padding-right: 50px;
-text-decoration: none;
-color: #212121;
+.nav-list .item:not(:last-child){
+    margin-right: 50px;
+}
 
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 0.02em;
+.nav-list .item:first-child{
+    margin-left: 93px;
+}
+
+.nav-list .link{
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .site-addres{
     display: flex;
-    padding-top: 32px;
+    padding-top:32px;
     margin-left: 344px;
     margin-bottom: 0;
     padding-left: 0;
@@ -137,17 +144,6 @@ color:#2196F3;
 
 .item:last-child{
     padding-right:0;
-}
-
-.item{
-width: 270px;
-padding-right: 30px;
-margin-bottom: 0px;
-margin-top: 0px;
-}
-
-.list{
-
 }
 
 .features-title{
@@ -281,10 +277,14 @@ margin-top: 20px;
     background: #F5F5F5;
 }
 
-
+.button-portfolio{
+    background: #F5F4FA;
+}
 
 .projects{
-    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 }
 
 .project-item{
