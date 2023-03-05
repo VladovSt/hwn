@@ -8,29 +8,40 @@ ul,li,p,h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 
+.section{
+    padding-left: 215px;
+}
+
 .container{
-width: 1200px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
 }
 
 .list{
-    list-style-type: none;
-    padding: 0;
+list-style-type: none;
+padding: 0;
 }
 
 .link{
-    text-decoration: none;
+text-decoration: none;
+color: #212121;
+}
+
+.link:hover{
+color: #2196F3;
 }
 
 .item{
-    text-decoration: none;
+text-decoration: none;
 }
 
 .page-header{
+margin: 0;
+padding-left: 215px;
 display: flex;
 align-items: center;
+padding-bottom: 32px;
 }
 
 .logo{
@@ -41,10 +52,11 @@ line-height: 1.2;
 letter-spacing: 0.03em;
 color: #2196F3;
 text-decoration: none;
+
 }   
 
 .logo-header{
-    
+margin-top: 24px;
 }
 
 .logo-header-color{
@@ -57,6 +69,7 @@ display: flex;
     
 .nav-list{
 display: flex;
+    padding-top: 32px;
 }
 
 .nav-list .item:not(:last-child){
@@ -69,8 +82,6 @@ display: flex;
 
 .nav-list .link{
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
 }
 
 .site-addres{
@@ -100,14 +111,13 @@ color: #757575;
 
 .section-hero{
 background: #2F303A;
-height: 200px;
+height: 600px;
 padding-top: 200px;
 padding-bottom: 200px;
 }
 
 .hero-title{
     font-family: 'Roboto';
-    font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     margin-left: 92px;
@@ -146,35 +156,36 @@ color:#2196F3;
     padding-right:0;
 }
 
-.features-title{
+.section-features{
 padding-top: 94px;
+}
+
+
+.features-title{
+width: 270px;
+margin-bottom: 10px;
 }
 
 .features-list{
 display: flex;
+}
+
+.features-box{
 margin-right: 30px;
 }
 
-.features-list:last-child{
-    margin-right: 0px;
-}
-
-.features-item{
-
-}
-
-.item-title{
-
+.features-box:last-child{
+    margin-right: 0;
 }
 
 .section-work{
-    padding-bottom: 94px;
-    padding-top: 118px;
+padding-top: 94px;
+height: 648px
 }
 
 .work-title{
     width: 366px;
-    margin-left: 257px;
+    margin-left: 402px;
     margin-bottom: 50px;
     font-family: 'Roboto';
     font-weight: 700;
@@ -202,16 +213,14 @@ margin-right: 30px;
 
 .section-team{
 background: #F5F4FA;
-Width:1600px;
 Height:648px;
+padding-top: 94px;
 }
 
 .team-title{
-padding-right: 668p;
-padding-left: 668px;
-text-align:center;
+    margin-left: 668px;
+    margin-bottom:50px;
 Width:264px;
-Height:42px;
 }
 
 .team-list{
@@ -235,10 +244,6 @@ p{
     color: #757575;
 }
 
-.team:nth-child(1){
-margin-left: 215px;
-}
-
 .team:nth-child(4) {
 margin-right: 215px;
 }
@@ -251,6 +256,7 @@ margin: 0;
 .footer{
     padding-bottom: 60px;
     padding-top: 60px;
+    padding-left: 200px;
     background:#2F303A;
 }
 
